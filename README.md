@@ -13,5 +13,5 @@ downstairs, walking upstairs, and walking) and performs the following changes.
 average of each variable for each activity and each subject.
 
 Make sure your working directory contains the "UCI HAR Dataset" before you run this script.
-The final output is a dataframe named "summarizeDF". It gives the average mean observation 
-for each test subject for each activity type.
+The final output is a dataframe named "Summarized_AccelerometerandGyroscope_Data". 
+It gives the average mean observation for each test subject for each activity type.
