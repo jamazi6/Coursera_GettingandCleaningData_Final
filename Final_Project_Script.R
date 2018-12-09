@@ -67,4 +67,4 @@ DF_grouped <- group_by(filteredDF, subject, activity)
 summarize <- summarize_at(DF_grouped, .vars=colnames(DF_grouped[3:88]), .funs=mean)
 summarizeDF <- as.data.frame(summarize)
 
-summarizeDF
+write.csv(summarizeDF, file="Summarized_AccelerometerandGyroscope_Data")
